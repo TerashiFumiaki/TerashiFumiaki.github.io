@@ -2,17 +2,12 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <!-- SEO基本 -->
+  <!-- SEO -->
   <title>寺師史晃 | Terashi Fumiaki | クラウドエンジニア</title>
   <meta name="description" content="クラウドエンジニア 寺師史晃（Terashi Fumiaki）の連絡先ページ。" />
   <meta name="robots" content="index, follow" />
-
-  <!-- OGP -->
-  <meta property="og:title" content="寺師史晃 | Terashi Fumiaki" />
-  <meta property="og:description" content="クラウドエンジニアの連絡先ページ" />
-  <meta property="og:type" content="website" />
 
   <!-- 構造化データ -->
   <script type="application/ld+json">
@@ -39,13 +34,18 @@
     }
 
     .card {
-      background: rgba(15, 23, 42, 0.9);
+      background: rgba(15, 23, 42, 0.95);
       border: 1px solid rgba(255,255,255,0.08);
       border-radius: 10px;
       padding: 40px;
-      text-align: left;
+      text-align: center;
       box-shadow: 0 20px 40px rgba(0,0,0,0.6);
       width: 340px;
+      margin: 0 auto;
+    }
+
+    h1, .sub, .role, .contact {
+      text-align: center;
     }
 
     h1 {
@@ -64,13 +64,14 @@
     .role {
       font-size: 13px;
       color: #38bdf8;
-      margin-bottom: 20px;
+      margin-bottom: 8px;
       letter-spacing: 1px;
     }
 
-    .mail-img {
-      max-width: 240px;
-      opacity: 0.9;
+    .contact {
+      font-size: 13px;
+      color: #94a3b8;
+      margin-bottom: 20px;
     }
 
     .divider {
@@ -78,18 +79,25 @@
       background: rgba(255,255,255,0.1);
       margin: 20px 0;
     }
+
+    .mail-img {
+      display: block;
+      margin: 0 auto;
+      max-width: 300px;
+    }
   </style>
 </head>
+
 <body>
   <div class="card">
     <h1>寺師 史晃</h1>
     <div class="sub">Terashi Fumiaki</div>
 
     <div class="role">CLOUD ENGINEER</div>
+    <div class="contact">Feel free to reach out anytime.</div>
 
     <div class="divider"></div>
 
-    <!-- メール画像 -->
     <img src="mail.png" alt="email" class="mail-img">
   </div>
 </body>
